@@ -1,6 +1,9 @@
 /* Write your CSS here */
 .main-container {
   background-color: #ffc2a0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
 }
 .simpletodo-container {
@@ -24,4 +27,8 @@
   font-weight: 700;
   margin-top: 12px;
   margin-bottom: 16px;
+}
+
+.todos-list {
+  padding-left: 0px;
 }
